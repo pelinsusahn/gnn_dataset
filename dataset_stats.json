@@ -1,0 +1,1151 @@
+{
+  "total_samples": 38000,
+  "shapes": [
+    "rectangular",
+    "l_shaped",
+    "t_shaped",
+    "setback",
+    "podium_tower"
+  ],
+  "systems": [
+    "moment_frame",
+    "braced_frame",
+    "core_frame",
+    "shear_wall_frame"
+  ],
+  "combinations": [
+    {
+      "shape": "rectangular",
+      "system": "moment_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.8125
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.526
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.4835
+        },
+        "bay_spacing_x": {
+          "min": 4.002575,
+          "max": 9.289935,
+          "mean": 5.811376
+        },
+        "bay_spacing_y": {
+          "min": 4.000483,
+          "max": 9.218348,
+          "mean": 5.811964
+        },
+        "story_height": {
+          "min": 2.96545,
+          "max": 4.51633,
+          "mean": 3.771112
+        },
+        "section_scale": {
+          "min": 0.800007,
+          "max": 1.399009,
+          "mean": 1.098383
+        },
+        "lateral_load": {
+          "min": 0.491423,
+          "max": 2.063905,
+          "mean": 1.528088
+        },
+        "displacement_mm": {
+          "min": 0.000703,
+          "max": 0.526008,
+          "mean": 0.054477,
+          "median": 0.017255
+        }
+      },
+      "section_families": {
+        "IPE": 493,
+        "HEA": 490,
+        "HEB": 500,
+        "RHS": 517
+      }
+    },
+    {
+      "shape": "rectangular",
+      "system": "braced_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.643
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.517
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.479
+        },
+        "bay_spacing_x": {
+          "min": 4.00132,
+          "max": 9.284912,
+          "mean": 5.839768
+        },
+        "bay_spacing_y": {
+          "min": 4.004567,
+          "max": 9.267493,
+          "mean": 5.827325
+        },
+        "story_height": {
+          "min": 2.97665,
+          "max": 4.563142,
+          "mean": 3.748515
+        },
+        "section_scale": {
+          "min": 0.800221,
+          "max": 1.399508,
+          "mean": 1.098997
+        },
+        "lateral_load": {
+          "min": 0.498122,
+          "max": 2.085692,
+          "mean": 1.522667
+        },
+        "displacement_mm": {
+          "min": 0.000442,
+          "max": 0.511253,
+          "mean": 0.045176,
+          "median": 0.01457
+        }
+      },
+      "section_families": {
+        "IPE": 477,
+        "HEA": 509,
+        "HEB": 478,
+        "RHS": 536
+      }
+    },
+    {
+      "shape": "rectangular",
+      "system": "core_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.748
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.538
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.489
+        },
+        "bay_spacing_x": {
+          "min": 4.005437,
+          "max": 9.283621,
+          "mean": 5.855083
+        },
+        "bay_spacing_y": {
+          "min": 4.008879,
+          "max": 9.285932,
+          "mean": 5.805984
+        },
+        "story_height": {
+          "min": 2.951986,
+          "max": 4.535591,
+          "mean": 3.734019
+        },
+        "section_scale": {
+          "min": 0.800285,
+          "max": 1.399562,
+          "mean": 1.103776
+        },
+        "lateral_load": {
+          "min": 0.486484,
+          "max": 2.054618,
+          "mean": 1.506848
+        },
+        "displacement_mm": {
+          "min": 0.000338,
+          "max": 0.215181,
+          "mean": 0.014881,
+          "median": 0.008647
+        }
+      },
+      "section_families": {
+        "IPE": 471,
+        "HEA": 515,
+        "HEB": 486,
+        "RHS": 528
+      }
+    },
+    {
+      "shape": "rectangular",
+      "system": "shear_wall_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.883
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.476
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.492
+        },
+        "bay_spacing_x": {
+          "min": 4.001025,
+          "max": 9.276413,
+          "mean": 5.82912
+        },
+        "bay_spacing_y": {
+          "min": 4.002698,
+          "max": 9.245225,
+          "mean": 5.860156
+        },
+        "story_height": {
+          "min": 2.980361,
+          "max": 4.544086,
+          "mean": 3.740031
+        },
+        "section_scale": {
+          "min": 0.800785,
+          "max": 1.399703,
+          "mean": 1.097959
+        },
+        "lateral_load": {
+          "min": 0.495828,
+          "max": 2.085081,
+          "mean": 1.514311
+        },
+        "displacement_mm": {
+          "min": 8e-06,
+          "max": 0.00492,
+          "mean": 0.000447,
+          "median": 0.000337
+        }
+      },
+      "section_families": {
+        "IPE": 538,
+        "HEA": 491,
+        "HEB": 488,
+        "RHS": 483
+      }
+    },
+    {
+      "shape": "l_shaped",
+      "system": "moment_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.6565
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.5405
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.473
+        },
+        "bay_spacing_x": {
+          "min": 4.001947,
+          "max": 9.221471,
+          "mean": 5.828898
+        },
+        "bay_spacing_y": {
+          "min": 4.002777,
+          "max": 9.258966,
+          "mean": 5.871303
+        },
+        "story_height": {
+          "min": 2.96453,
+          "max": 4.55875,
+          "mean": 3.754855
+        },
+        "section_scale": {
+          "min": 0.801063,
+          "max": 1.39999,
+          "mean": 1.101505
+        },
+        "lateral_load": {
+          "min": 0.488224,
+          "max": 2.085036,
+          "mean": 1.496127
+        },
+        "displacement_mm": {
+          "min": 0.000718,
+          "max": 0.602588,
+          "mean": 0.060667,
+          "median": 0.020043
+        }
+      },
+      "section_families": {
+        "IPE": 521,
+        "HEA": 460,
+        "HEB": 498,
+        "RHS": 521
+      }
+    },
+    {
+      "shape": "l_shaped",
+      "system": "braced_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.775
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.519
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.529
+        },
+        "bay_spacing_x": {
+          "min": 4.005655,
+          "max": 9.204811,
+          "mean": 5.83016
+        },
+        "bay_spacing_y": {
+          "min": 4.001599,
+          "max": 9.225941,
+          "mean": 5.83681
+        },
+        "story_height": {
+          "min": 2.951589,
+          "max": 4.528737,
+          "mean": 3.75552
+        },
+        "section_scale": {
+          "min": 0.800089,
+          "max": 1.399778,
+          "mean": 1.097972
+        },
+        "lateral_load": {
+          "min": 0.490986,
+          "max": 2.07896,
+          "mean": 1.504287
+        },
+        "displacement_mm": {
+          "min": 0.000657,
+          "max": 0.522099,
+          "mean": 0.058357,
+          "median": 0.018195
+        }
+      },
+      "section_families": {
+        "IPE": 529,
+        "HEA": 480,
+        "HEB": 466,
+        "RHS": 525
+      }
+    },
+    {
+      "shape": "l_shaped",
+      "system": "core_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.739
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.52
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.5285
+        },
+        "bay_spacing_x": {
+          "min": 4.000971,
+          "max": 9.252059,
+          "mean": 5.89428
+        },
+        "bay_spacing_y": {
+          "min": 4.000863,
+          "max": 9.242099,
+          "mean": 5.897365
+        },
+        "story_height": {
+          "min": 2.977919,
+          "max": 4.540345,
+          "mean": 3.74247
+        },
+        "section_scale": {
+          "min": 0.800026,
+          "max": 1.399974,
+          "mean": 1.097046
+        },
+        "lateral_load": {
+          "min": 0.501803,
+          "max": 2.094823,
+          "mean": 1.511862
+        },
+        "displacement_mm": {
+          "min": 0.000518,
+          "max": 0.221854,
+          "mean": 0.014069,
+          "median": 0.008815
+        }
+      },
+      "section_families": {
+        "IPE": 509,
+        "HEA": 490,
+        "HEB": 493,
+        "RHS": 508
+      }
+    },
+    {
+      "shape": "l_shaped",
+      "system": "shear_wall_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.7345
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.5135
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.506
+        },
+        "bay_spacing_x": {
+          "min": 4.000621,
+          "max": 9.258773,
+          "mean": 5.814101
+        },
+        "bay_spacing_y": {
+          "min": 4.001192,
+          "max": 9.233686,
+          "mean": 5.875436
+        },
+        "story_height": {
+          "min": 2.967364,
+          "max": 4.533913,
+          "mean": 3.741907
+        },
+        "section_scale": {
+          "min": 0.800288,
+          "max": 1.399937,
+          "mean": 1.102412
+        },
+        "lateral_load": {
+          "min": 0.502918,
+          "max": 2.147679,
+          "mean": 1.524716
+        },
+        "displacement_mm": {
+          "min": 2.1e-05,
+          "max": 0.007039,
+          "mean": 0.000812,
+          "median": 0.000672
+        }
+      },
+      "section_families": {
+        "IPE": 486,
+        "HEA": 503,
+        "HEB": 524,
+        "RHS": 487
+      }
+    },
+    {
+      "shape": "t_shaped",
+      "system": "moment_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.8305
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.4895
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.509
+        },
+        "bay_spacing_x": {
+          "min": 4.006191,
+          "max": 9.159785,
+          "mean": 5.831792
+        },
+        "bay_spacing_y": {
+          "min": 4.001188,
+          "max": 9.204112,
+          "mean": 5.8683
+        },
+        "story_height": {
+          "min": 2.957975,
+          "max": 4.546604,
+          "mean": 3.75277
+        },
+        "section_scale": {
+          "min": 0.800334,
+          "max": 1.399179,
+          "mean": 1.096734
+        },
+        "lateral_load": {
+          "min": 0.493361,
+          "max": 2.116449,
+          "mean": 1.519685
+        },
+        "displacement_mm": {
+          "min": 0.000738,
+          "max": 1.775788,
+          "mean": 0.080133,
+          "median": 0.024592
+        }
+      },
+      "section_families": {
+        "IPE": 476,
+        "HEA": 522,
+        "HEB": 486,
+        "RHS": 516
+      }
+    },
+    {
+      "shape": "t_shaped",
+      "system": "braced_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.772
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.4975
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.513
+        },
+        "bay_spacing_x": {
+          "min": 4.001415,
+          "max": 9.279604,
+          "mean": 5.837534
+        },
+        "bay_spacing_y": {
+          "min": 4.000092,
+          "max": 9.236105,
+          "mean": 5.889604
+        },
+        "story_height": {
+          "min": 2.955634,
+          "max": 4.541397,
+          "mean": 3.761886
+        },
+        "section_scale": {
+          "min": 0.800187,
+          "max": 1.399871,
+          "mean": 1.096099
+        },
+        "lateral_load": {
+          "min": 0.492663,
+          "max": 2.097368,
+          "mean": 1.504509
+        },
+        "displacement_mm": {
+          "min": 0.000458,
+          "max": 1.469416,
+          "mean": 0.074642,
+          "median": 0.022017
+        }
+      },
+      "section_families": {
+        "IPE": 499,
+        "HEA": 505,
+        "HEB": 520,
+        "RHS": 476
+      }
+    },
+    {
+      "shape": "t_shaped",
+      "system": "core_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.706
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.4595
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.47
+        },
+        "bay_spacing_x": {
+          "min": 4.00103,
+          "max": 9.285371,
+          "mean": 5.836202
+        },
+        "bay_spacing_y": {
+          "min": 4.000246,
+          "max": 9.280891,
+          "mean": 5.84675
+        },
+        "story_height": {
+          "min": 2.958044,
+          "max": 4.5471,
+          "mean": 3.763548
+        },
+        "section_scale": {
+          "min": 0.800041,
+          "max": 1.399914,
+          "mean": 1.104372
+        },
+        "lateral_load": {
+          "min": 0.482196,
+          "max": 2.134678,
+          "mean": 1.506652
+        },
+        "displacement_mm": {
+          "min": 0.000594,
+          "max": 0.974995,
+          "mean": 0.024784,
+          "median": 0.01139
+        }
+      },
+      "section_families": {
+        "IPE": 509,
+        "HEA": 493,
+        "HEB": 508,
+        "RHS": 490
+      }
+    },
+    {
+      "shape": "t_shaped",
+      "system": "shear_wall_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.748
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.522
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.493
+        },
+        "bay_spacing_x": {
+          "min": 4.003822,
+          "max": 9.276014,
+          "mean": 5.869595
+        },
+        "bay_spacing_y": {
+          "min": 4.001136,
+          "max": 9.234174,
+          "mean": 5.830169
+        },
+        "story_height": {
+          "min": 2.953668,
+          "max": 4.535901,
+          "mean": 3.752188
+        },
+        "section_scale": {
+          "min": 0.800176,
+          "max": 1.399774,
+          "mean": 1.098044
+        },
+        "lateral_load": {
+          "min": 0.491821,
+          "max": 2.200068,
+          "mean": 1.528168
+        },
+        "displacement_mm": {
+          "min": 1e-05,
+          "max": 1.0504,
+          "mean": 0.013112,
+          "median": 0.003251
+        }
+      },
+      "section_families": {
+        "IPE": 530,
+        "HEA": 490,
+        "HEB": 476,
+        "RHS": 504
+      }
+    },
+    {
+      "shape": "setback",
+      "system": "moment_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.805
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.486
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.5055
+        },
+        "bay_spacing_x": {
+          "min": 4.003502,
+          "max": 9.202044,
+          "mean": 5.828151
+        },
+        "bay_spacing_y": {
+          "min": 4.002851,
+          "max": 9.276796,
+          "mean": 5.815925
+        },
+        "story_height": {
+          "min": 2.981921,
+          "max": 4.56535,
+          "mean": 3.759456
+        },
+        "section_scale": {
+          "min": 0.800356,
+          "max": 1.399562,
+          "mean": 1.098237
+        },
+        "lateral_load": {
+          "min": 0.483515,
+          "max": 2.189799,
+          "mean": 1.500599
+        },
+        "displacement_mm": {
+          "min": 0.000522,
+          "max": 0.570955,
+          "mean": 0.04815,
+          "median": 0.015581
+        }
+      },
+      "section_families": {
+        "IPE": 492,
+        "HEA": 516,
+        "HEB": 505,
+        "RHS": 487
+      }
+    },
+    {
+      "shape": "setback",
+      "system": "braced_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.865
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.5015
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.489
+        },
+        "bay_spacing_x": {
+          "min": 4.004358,
+          "max": 9.234073,
+          "mean": 5.864144
+        },
+        "bay_spacing_y": {
+          "min": 4.00065,
+          "max": 9.280884,
+          "mean": 5.884633
+        },
+        "story_height": {
+          "min": 2.952502,
+          "max": 4.538466,
+          "mean": 3.748413
+        },
+        "section_scale": {
+          "min": 0.80041,
+          "max": 1.399736,
+          "mean": 1.09882
+        },
+        "lateral_load": {
+          "min": 0.493662,
+          "max": 2.108673,
+          "mean": 1.504826
+        },
+        "displacement_mm": {
+          "min": 0.000505,
+          "max": 0.443137,
+          "mean": 0.042807,
+          "median": 0.013357
+        }
+      },
+      "section_families": {
+        "IPE": 494,
+        "HEA": 527,
+        "HEB": 499,
+        "RHS": 480
+      }
+    },
+    {
+      "shape": "setback",
+      "system": "core_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.7615
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.545
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.3015
+        },
+        "bay_spacing_x": {
+          "min": 4.000834,
+          "max": 9.266287,
+          "mean": 5.874683
+        },
+        "bay_spacing_y": {
+          "min": 4.001686,
+          "max": 9.23169,
+          "mean": 5.839998
+        },
+        "story_height": {
+          "min": 2.961979,
+          "max": 4.538961,
+          "mean": 3.745292
+        },
+        "section_scale": {
+          "min": 0.800006,
+          "max": 1.399908,
+          "mean": 1.103666
+        },
+        "lateral_load": {
+          "min": 0.499193,
+          "max": 2.137994,
+          "mean": 1.52215
+        },
+        "displacement_mm": {
+          "min": 0.00041,
+          "max": 0.201116,
+          "mean": 0.013355,
+          "median": 0.007726
+        }
+      },
+      "section_families": {
+        "IPE": 503,
+        "HEA": 502,
+        "HEB": 500,
+        "RHS": 495
+      }
+    },
+    {
+      "shape": "setback",
+      "system": "shear_wall_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.8455
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.51
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.549
+        },
+        "bay_spacing_x": {
+          "min": 4.001626,
+          "max": 9.243058,
+          "mean": 5.781923
+        },
+        "bay_spacing_y": {
+          "min": 4.000013,
+          "max": 9.215871,
+          "mean": 5.897932
+        },
+        "story_height": {
+          "min": 2.960958,
+          "max": 4.60185,
+          "mean": 3.754781
+        },
+        "section_scale": {
+          "min": 0.800124,
+          "max": 1.399961,
+          "mean": 1.098518
+        },
+        "lateral_load": {
+          "min": 0.483265,
+          "max": 2.102366,
+          "mean": 1.517433
+        },
+        "displacement_mm": {
+          "min": 9e-06,
+          "max": 0.027919,
+          "mean": 0.001922,
+          "median": 0.000808
+        }
+      },
+      "section_families": {
+        "IPE": 508,
+        "HEA": 487,
+        "HEB": 510,
+        "RHS": 495
+      }
+    },
+    {
+      "shape": "podium_tower",
+      "system": "moment_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.8845
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.5335
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.4725
+        },
+        "bay_spacing_x": {
+          "min": 4.000285,
+          "max": 9.251878,
+          "mean": 5.873833
+        },
+        "bay_spacing_y": {
+          "min": 4.002488,
+          "max": 9.273174,
+          "mean": 5.855954
+        },
+        "story_height": {
+          "min": 2.939279,
+          "max": 4.547928,
+          "mean": 3.744423
+        },
+        "section_scale": {
+          "min": 0.800051,
+          "max": 1.399994,
+          "mean": 1.096011
+        },
+        "lateral_load": {
+          "min": 0.483004,
+          "max": 2.105404,
+          "mean": 1.512163
+        },
+        "displacement_mm": {
+          "min": 0.000432,
+          "max": 0.568918,
+          "mean": 0.054082,
+          "median": 0.016648
+        }
+      },
+      "section_families": {
+        "IPE": 526,
+        "HEA": 474,
+        "HEB": 510,
+        "RHS": 490
+      }
+    },
+    {
+      "shape": "podium_tower",
+      "system": "braced_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.868
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.453
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.5085
+        },
+        "bay_spacing_x": {
+          "min": 4.001929,
+          "max": 9.271495,
+          "mean": 5.850349
+        },
+        "bay_spacing_y": {
+          "min": 4.005507,
+          "max": 9.264933,
+          "mean": 5.895072
+        },
+        "story_height": {
+          "min": 2.936188,
+          "max": 4.539372,
+          "mean": 3.739587
+        },
+        "section_scale": {
+          "min": 0.800462,
+          "max": 1.399553,
+          "mean": 1.101472
+        },
+        "lateral_load": {
+          "min": 0.489061,
+          "max": 2.110913,
+          "mean": 1.510259
+        },
+        "displacement_mm": {
+          "min": 0.000505,
+          "max": 0.413368,
+          "mean": 0.045935,
+          "median": 0.014665
+        }
+      },
+      "section_families": {
+        "IPE": 525,
+        "HEA": 498,
+        "HEB": 477,
+        "RHS": 500
+      }
+    },
+    {
+      "shape": "podium_tower",
+      "system": "core_frame",
+      "count": 2000,
+      "stats": {
+        "n_stories": {
+          "min": 3.0,
+          "max": 15.0,
+          "mean": 11.7135
+        },
+        "bay_x": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.5045
+        },
+        "bay_y": {
+          "min": 2.0,
+          "max": 5.0,
+          "mean": 3.459
+        },
+        "bay_spacing_x": {
+          "min": 4.00105,
+          "max": 9.22524,
+          "mean": 5.907599
+        },
+        "bay_spacing_y": {
+          "min": 4.001791,
+          "max": 9.258074,
+          "mean": 5.859261
+        },
+        "story_height": {
+          "min": 2.970753,
+          "max": 4.56915,
+          "mean": 3.738777
+        },
+        "section_scale": {
+          "min": 0.800043,
+          "max": 1.399744,
+          "mean": 1.106798
+        },
+        "lateral_load": {
+          "min": 0.492721,
+          "max": 2.140159,
+          "mean": 1.507679
+        },
+        "displacement_mm": {
+          "min": 0.000298,
+          "max": 0.181616,
+          "mean": 0.013383,
+          "median": 0.008157
+        }
+      },
+      "section_families": {
+        "IPE": 507,
+        "HEA": 496,
+        "HEB": 480,
+        "RHS": 517
+      }
+    },
+    {
+      "shape": "podium_tower",
+      "system": "shear_wall_frame",
+      "count": 0,
+      "stats": null,
+      "section_families": {
+        "IPE": 0,
+        "HEA": 0,
+        "HEB": 0,
+        "RHS": 0
+      }
+    }
+  ]
+}
